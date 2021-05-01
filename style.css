@@ -1,9 +1,15 @@
 body{
     max-width: 1024px;
     margin: auto;
-    border: solid black 2em;
+    border: solid black 1em;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
 }
 
 .text-center{
@@ -18,45 +24,38 @@ main .group-list li{
     margin-top: 1em;
 }
 
-.contact, .links{
+.contact{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    text-align: center;
 }
 
 .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
     color: white;
     background-color: black;
     padding-top: 0.2em ;
     padding-bottom: 0.2em ;
 }
+
 .links a{
     color: white;
 }
 
-main{
-    display: grid;
-    grid-template-columns: 2fr 3fr;
+.links span{
+    display: none;
 }
 
-
-.competences{
-    grid-column: 1;
-    padding: 1em;
-    margin-left: 1em;
-    margin-right: 2em;
-}
-.competences article{
+.competences article, .formations{
     border-top: solid 0.2rem;
 }
 
-.XPnForm{
-    grid-column: 2;
-    padding: 1em;
-    padding-top: 0;
-    margin-left: 2em;
-    margin-right: 1em;
-
+.interest {
+    border-bottom: solid 0.2rem;
 }
 .myName{
 
@@ -70,7 +69,7 @@ main{
     font-family: 'Spectral SC', serif;
     font-size: 3rem;
     font-weight: bold;
-    margin: 0;
+    margin-top: 0;
     margin-bottom: 0.5em;
 }
 
@@ -113,3 +112,38 @@ img{
 .light-grey{
     color: rgb(104, 104, 104);
 }
+
+@media screen and (min-width: 992px) {
+    body{
+        border: solid black 1em;
+
+    }
+    main{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+    }
+    
+    
+    .competences{
+        grid-column: 1;
+        padding: 1em;
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+    
+    .XPnForm{
+        grid-column: 2;
+        padding: 1em;
+        padding-top: 0;
+        margin-left: 2em;
+        margin-right: 1em;
+        
+    }
+    .contact, .links{
+        flex-direction: row;
+    }
+   
+    .links span{
+        display: inline;
+    } 
+  }
