@@ -1,0 +1,115 @@
+body{
+    max-width: 1024px;
+    margin: auto;
+    border: solid black 2em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.group-list{
+    list-style: none;
+    padding: 0;
+}
+main .group-list li{
+    margin-top: 1em;
+}
+
+.contact, .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links{
+    color: white;
+    background-color: black;
+    padding-top: 0.2em ;
+    padding-bottom: 0.2em ;
+}
+.links a{
+    color: white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+
+.competences{
+    grid-column: 1;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+.competences article{
+    border-top: solid 0.2rem;
+}
+
+.XPnForm{
+    grid-column: 2;
+    padding: 1em;
+    padding-top: 0;
+    margin-left: 2em;
+    margin-right: 1em;
+
+}
+.myName{
+
+    font-family: 'Spectral SC', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.5em;
+}
+.jobTitle{
+
+    font-family: 'Spectral SC', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.XPtitle{
+    text-transform: capitalize;
+    margin-bottom: 0.5em;
+}
+
+.sub-title{
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+
+}
+
+.categoryTitle{
+    font-family: 'Cinzel Decorative', cursive;
+
+    text-transform: uppercase;
+    font-size: 1.8em;
+    margin-bottom: 0;
+}
+.profile-photo{
+    text-align: center;
+}
+img{
+    max-width: 70%;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.emilie{
+    display: none;
+}
+
+.bold{
+    font-weight: bold ;
+}
+
+.light-grey{
+    color: rgb(104, 104, 104);
+}
