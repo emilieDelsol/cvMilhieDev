@@ -67,7 +67,7 @@ main .group-list li{
 .jobTitle{
 
     font-family: 'Spectral SC', serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0.5em;
@@ -145,5 +145,10 @@ img{
    
     .links span{
         display: inline;
-    } 
+    }
+    
+    .jobTitle{
+
+        font-size: 3rem;
+    }
   }
