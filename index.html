@@ -9,8 +9,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 	<link href="./style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-    <header>
+<body class="cvEmilieDelsol">
+    <header class="cvHeader">
         <h1 class="text-center myName">Emilie Delsol</h1>
         <p class="text-center jobTitle">Développeuse web</p>
         <ul class="group-list contact">
@@ -36,19 +36,19 @@
             <li>
                 <a href="https://www.linkedin.com/in/emilie-delsol/"><i class="fab fa-linkedin-in"></i><span> @emilie-delsol</span></a>
             </li>
-            <li>         
+            <li>
                 <a href="https://github.com/emilieDelsol"><i class="fab fa-github"></i><span> @emilieDelsol</span></a>
             </li>
         </ul>
     </header>
 
-    <main>
+    <main class="cvMain">
         <aside class="competences">
 			<h2 class="emilie">Emilie Delsol</h2>
 			<div class="profile-photo">
 				<img src="./images/photoCv.png" alt="photo cv Emilie Delsol">
             </div>
-			<article class="profil"> 
+			<article class="profil">
                 <h2 class="categoryTitle">Profil</h2>
                 <p class="light-grey">
                     Passionnée par la technologie, j'ai décidé
@@ -64,8 +64,9 @@
                 </h2>
                 <ul class="group-list bold" >
                     <li>C# ASP.NetCore</li>
+					<li>Ruby</li>
                     <li>SQL Server</li>
-                    <li>ReactJS</li>
+                    <li>ReactJS / Typescript</li>
                     <li>Git</li>
                     <li>Gestion de projet</li>
                 </ul>
@@ -73,7 +74,7 @@
             <article>
                 <h2 class="categoryTitle">
                     QUALITÉS
-                    
+
                 </h2>
                <ul class="group-list ">
                     <li class="bold">Capacité d'adaptation</li>
@@ -86,8 +87,8 @@
             <article class="interest">
                 <h2 class="categoryTitle">
 					INTÉRÊTS
-					
-                </h2 class="categoryTitle">
+
+                </h2>
                 <ul class="group-list">
 					<li>
 						<span class="bold">Natation</span>
@@ -100,64 +101,71 @@
 						<br>
 						<span class="light-grey">Créations de bijoux, de décorations en fil
 						d'aluminium</span>
-						
+
 					</li>
 					<li>
 						<span class="bold">CaniCross/Randonnée</span>
 					</li>
 				</ul>
             </article>
-            
+
         </aside>
 		<section class="XPnForm">
 			<h2 class="emilie">Emilie Delsol</h2>
-			<article>
+			<article class="xpPro">
 				<h2 class="categoryTitle">EXPÉRIENCES PROFESSIONNELLES</h2>
 				<ul class="group-list">
 					<li>
-						<h3 class="XPtitle">DÉVELOPPEUR WEB - FULLSTACK</h3>
-							<h4 class="sub-title">ILEK</h4>
-							Ruby on rails, javascript, stage - Depuis fev. 2021
-							<br/>
-							<span class="light-grey">Développement du projet de crowdfunding, mise en ligne mi-mai 2021.</span>
-							<h4 class="sub-title">IOT web platform BeON</h4>
-							C# , projet en cours - nov. 2020 / fev. 2021
-							<br/>
-							<span class="light-grey">Développement d'une plateforme de suivi de balises géolocalisées en temps réel .</span>
-							<h4 class="sub-title">Hackathon</h4>
-							C# API-REST SQLServer ReactJS, - nov. 2020 / nov. 2020
-							<br/>
-							<span class="light-grey">Création d'une application web d'organisation de tournois de chevaliers en 24h .</span>
-							<h4 class="sub-title">MyAgenda</h4>
-							C# ASP.NetCore SQLServer SCRUM ReactJS, - oct. 2020 / nov. 2020
-							<br/>
-							<span class="light-grey">Création d'une application de gestion de rendez-vous.</span>
-							<h4 class="sub-title">"Rance info"</h4>
-							HTML - CSS - JavaScript, - sept. 2020 / oct. 2020
-							<br/>
-							<span class="light-grey">Création d'un site statique HTML/CSS/JS de présentation d'informations satiriques.</span>
+						<h3 class="XPtitle">DÉVELOPPEUSE WEB </h3>
+						<ul class="group-list">
+							<li>
+								<h4 class="sub-title">ILEK</h4>
+								<p class="langages">Ruby on rails, React, typescript</p>
+								<h5 class="details">CDI - Depuis juin 2021</h5>
+								<span class="light-grey">Développement et maintenace des outils ilek. </span>
+								<h5 class="details">Stage février - juin 2021</h5>
+								<span class="light-grey">Développement du projet de crowdfunding, mise en ligne mi-mai 2021.</span>
+							</li>
+							<li>
+								<h4 class="sub-title">IOT web platform BeON</h4>
+								<p class="langages">C# - nov. 2020 / fev. 2021</p>
+								<span class="light-grey">Développement d'une plateforme de suivi de balises géolocalisées en temps réel .</span>
+							</li>
+							<li>
+								<h4 class="sub-title">Hackathon</h4>
+								<p class="langages">C# API-REST SQLServer ReactJS - nov. 2020 / nov. 2020</p>
+								<span class="light-grey">Création d'une application web d'organisation de tournois de chevaliers en 24h .</span>
+							</li>
+							<li>
+								<h4 class="sub-title">MyAgenda</h4>
+								<p class="langages">C# ASP.NetCore SQLServer SCRUM ReactJS, - oct. 2020 / nov. 2020</p>
+								<span class="light-grey">Création d'une application de gestion de rendez-vous.</span>
+							</li>
+							<li>
+								<h4 class="sub-title">"Rance info"</h4>
+								<p class="langages">HTML - CSS - JavaScript - sept. 2020 / oct. 2020</p>
+								<span class="light-grey">Création d'un site statique HTML/CSS/JS de présentation d'informations satiriques.</span>
+							</li>
+						</ul>
 					</li>
 					<li>
 						<h3 class="XPtitle">AMBULANCIERE</h3>
 						<h4 class="sub-title">Ambulances St Ambroise</h4>
-							Toulouse, - Depuis mars 2008
-							<br/>
-							<span class="light-grey">Prise en charge et transport de patients - Interventions SAMU - Gestion du matériel -
-							Auto-formation - Tuteur de stage</span>
+						<p class="dates"> Toulouse - Depuis mars 2008</p>
+						<span class="light-grey">Prise en charge et transport de patients - Interventions SAMU - Gestion du matériel -
+						Auto-formation - Tuteur de stage</span>
 					</li>
 					<li>
 						<h3 class="XPtitle">SERVICE EN SALLE / BARMAID</h3>
 						<h4 class="sub-title">Alacita</h4>
-							Balma, - mai 2006 / déc. 2007
-							<br/>
-							<span class="light-grey">Relation clientèle - Gestion des stocks - Travail en équipe.</span>
+						<p class="dates"> Balma - mai 2006 / déc. 2007</p>
+						<span class="light-grey">Relation clientèle - Gestion des stocks - Travail en équipe.</span>
 					</li>
 					<li>
 						<h3 class="XPtitle">SURVEILLANT SAUVETEUR</h3>
 						<h4 class="sub-title">Profession Sport aveyron</h4>
-							Salles-Curan, Rodez - juin 2003 / sept. 2005
-							<br/>
-							<span class="light-grey">Gestion du poste de secours - surveillance - premiers secours - conseils de sécurité</span>
+						<p class="dates"> Salles-Curan, Rodez - juin 2003 / sept. 2005</p>
+						<span class="light-grey">Gestion du poste de secours - surveillance - premiers secours - conseils de sécurité</span>
 					</li>
 				</ul>
 			</article>
@@ -165,36 +173,31 @@
 				<h2 class="categoryTitle">FORMATIONS</h2>
 				<ul class="group-list">
 					<li>
-						<h4 class="sub-title">Développeur Web et Mobile Fullstack</h4>
-						WildCodeSchool, Toulouse - Sept. - fev. 2020 
-						<br/>
-						Formation au métier de développeur web et mobile fullstack
+						<h4 class="sub-title">Certificat professionnel de Développeur Web et Mobile (23/07/2021)</h4>
+						<p class="dates"> WildCodeSchool, Toulouse - Sept. - fev. 2020</p>
+						<p class="details">Formation au métier de développeur web et mobile fullstack</p>
 						<span class="light-grey">C# - ASP.NetCore - SQL Server - JavaScript - Git - Gestion de projet</span>
 					</li>
 					<li>
 						<h4 class="sub-title">Autoformation MOOC</h4>
-						OpenClassroom, SoloLearn - Depuis juill. 2019
-						<br/>
+						<p class="dates"> OpenClassroom, SoloLearn - Depuis juill. 2019</p>
 						<span class="light-grey">Apprentissage de la programmation</span>
 					</li>
 					<li>
 						<h4 class="sub-title">Diplôme d'état d'ambulancier</h4>
-						Croix Rouge, Toulouse - Sept. 2011
-				
+						<p class="dates"> Croix Rouge, Toulouse - Sept. 2011</p>
+
 					</li>
 					<li>
 						<h4 class="sub-title">IUT Génie Mécanique et Productique</h4>
-						Université Paul Sabatier , Toulouse - sept. 2003 / juin 2006
+						<p class="dates"> Université Paul Sabatier , Toulouse - sept. 2003 / juin 2006</p>
 					</li>
 					<li>
 						<h4 class="sub-title">Bac S SI</h4>
-						Lycée St Joseph, Rodez - sept. 2002 / juin 2003
+						<p class="dates"> Lycée St Joseph, Rodez - sept. 2002 / juin 2003</p>
 					</li>
 				</ul>
-				
-				
-				
-				
+
 			</article>
 		</section>
     </main>
