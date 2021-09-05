@@ -6,12 +6,14 @@
     font-size: 1rem;
 }
 
+
 .cv-header_my-name{
     font-family: 'Spectral SC', serif;
     font-size: 2rem;
     font-weight: bold;
     margin: 0.5em;
 }
+
 .cv-header__job-title{
     font-family: 'Spectral SC', serif;
     font-size: 2.5rem;
@@ -19,6 +21,7 @@
     margin-top: 0;
     margin-bottom: 0.5em;
 }
+
 .cv-header__contact{
     display: flex;
     flex-direction: column;
@@ -36,6 +39,7 @@
     flex-direction: column;
     margin: 1em;
 }
+
 
 .cv-main--group-list li{
     margin-top: 1em;
@@ -137,6 +141,7 @@ img{
         border: solid black 1em;
 
     }
+
     .cv-main{
         display: grid;
         grid-template-columns: 2fr 3fr;
