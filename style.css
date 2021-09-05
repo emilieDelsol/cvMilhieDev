@@ -6,12 +6,14 @@
     font-size: 1rem;
 }
 
+
 .myName{
     font-family: 'Spectral SC', serif;
     font-size: 2rem;
     font-weight: bold;
     margin: 0.5em;
 }
+
 .jobTitle{
     font-family: 'Spectral SC', serif;
     font-size: 2.5rem;
@@ -137,6 +139,7 @@ img{
         border: solid black 1em;
 
     }
+
     .cvMain{
         display: grid;
         grid-template-columns: 2fr 3fr;
