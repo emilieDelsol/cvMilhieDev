@@ -1,4 +1,4 @@
-.cvEmilieDelsol{
+.cv-emilie-delsol{
     max-width: 1024px;
     margin: auto;
     border: solid black 1em;
@@ -6,20 +6,23 @@
     font-size: 1rem;
 }
 
-.myName{
+
+.cv-header_my-name{
     font-family: 'Spectral SC', serif;
     font-size: 2rem;
     font-weight: bold;
     margin: 0.5em;
 }
-.jobTitle{
+
+.cv-header__job-title{
     font-family: 'Spectral SC', serif;
     font-size: 2.5rem;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
-.contact{
+
+.cv-header__contact{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -31,13 +34,14 @@
     margin-bottom: 2em;
 }
 
-.cvMain{
+.cv-main{
     display: flex;
     flex-direction: column;
     margin: 1em;
 }
 
-.cvMain .group-list li{
+
+.cv-main--group-list li{
     margin-top: 1em;
 }
 
@@ -137,7 +141,8 @@ img{
         border: solid black 1em;
 
     }
-    .cvMain{
+
+    .cv-main{
         display: grid;
         grid-template-columns: 2fr 3fr;
     }
