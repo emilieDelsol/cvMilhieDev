@@ -1,0 +1,165 @@
+.cvEmilieDelsol{
+    border:none;
+    background: rgb(204,204,204);
+}
+.page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    border: solid black 1em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.68rem;
+    width: 21cm;
+    height: 29.7cm;
+}
+
+.myName{
+    font-family: 'Spectral SC', serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0.5em;
+}
+.jobTitle{
+    font-family: 'Spectral SC', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.email{
+    color: black;
+    text-decoration: none;
+}
+.email:hover{
+    text-decoration: underline;
+}
+.cvMain{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin-top: 0;
+}
+.competences{
+    grid-column: 1;
+    padding: 1em;
+    margin-right: 0.5em;
+}
+.competences article, .formations{
+    margin-top: 2em;
+    margin-bottom: 1.8em;
+}
+
+.cvMain .group-list li{
+    margin-top: 1em;
+}
+
+.XPnForm{
+    grid-column: 2;
+    padding: 1em;
+    padding-top: 0;
+    margin-left: 0.5em;
+
+}
+
+.contact, .links{
+    flex-direction: row;
+}
+
+.links span{
+    display: inline;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.group-list{
+    list-style: none;
+    padding: 0;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    background-color: black !important;
+    padding-top: 0.2em ;
+    padding-bottom: 0.2em ;
+    margin: 0;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+.links a{
+    color: white;
+    background-color: black;
+}
+
+.competences article, .formations{
+    border-top: solid 0.2rem;
+}
+
+.interest {
+    border-bottom: solid 0.2rem;
+}
+
+
+.XPtitle{
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
+
+.sub-title{
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+
+}
+
+.categoryTitle{
+    font-family: 'Spectral SC', serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0.2em;
+}
+.profile-photo{
+    text-align: center;
+}
+img{
+    max-width: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.emilie{
+    display: none;
+}
+
+.bold{
+    font-weight: bold ;
+}
+
+.light-grey{
+    color: rgb(104, 104, 104);
+}
+
+.details{
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+}
+.langages, .dates{
+    margin: 0;
+}
