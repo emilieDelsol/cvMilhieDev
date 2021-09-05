@@ -1,21 +1,20 @@
 .cvEmilieDelsol{
     max-width: 1024px;
     margin: auto;
-    font-family: 'Raleway', sans-serif;
     border: solid black 1em;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
 }
-
 .myName{
     font-family: 'Spectral SC', serif;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: bold;
     margin: 0.5em;
 }
 
 .jobTitle{
     font-family: 'Spectral SC', serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0.5em;
@@ -33,6 +32,7 @@
 .email:hover{
     text-decoration: underline;
 }
+
 .competences article{
     margin-top: 2em;
     margin-bottom: 2em;
@@ -109,7 +109,7 @@
     text-align: center;
 }
 img{
-    max-width: 60%;
+    max-width: 70%;
     margin-top: 1em;
     margin-bottom: 1em;
     text-align: center;
@@ -135,18 +135,11 @@ img{
 .langages, .dates{
     margin: 0;
 }
-@media screen and (min-width: 850px){
-    .cvEmilieDelsol{
-        background: rgb(204,204,204);
-    }
-    .cvEmilieDelsol {
-        background: white;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 0.5cm;
-        box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-        border: solid black 1em;
 
+@media screen and (min-width: 992px) {
+    .cv-emilie-delsol{
+        border:none;
+        background: rgb(204,204,204);
     }
 
     .cvMain{
@@ -179,60 +172,7 @@ img{
     }
 
     .jobTitle{
+
         font-size: 3rem;
     }
-}
-@media print{
-    .cvEmilieDelsol{
-        background: rgb(204,204,204);
-    }
-    .cvEmilieDelsol {
-        background: white;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 0.5cm;
-        box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-        border: solid black 1em;
-        font-size: 0.7rem;
-        width: 21cm;
-        height: 29.7cm;
-    }
-
-    .cvMain{
-        display: grid;
-        grid-template-columns: 2fr 3fr;
-        margin-top: 0;
-    }
-
-    .competences{
-        grid-column: 1;
-        padding: 1em;
-        margin-right: 0.5em;
-    }
-
-    .competences article, .formations{
-        margin-top: 1.8em;
-        margin-bottom: 1.8em;
-    }
-
-    .XPnForm{
-        grid-column: 2;
-        padding: 1em;
-        padding-top: 0;
-        margin-left: 0.5em;
-
-    }
-
-    .contact, .links{
-        flex-direction: row;
-    }
-    .links{
-        margin: 0;
-        border-top: solid black;
-        border-bottom: solid black;
-    }
-    .links span{
-        display: inline;
-    }
-
 }
