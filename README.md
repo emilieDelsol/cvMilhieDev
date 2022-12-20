@@ -1,4 +1,4 @@
 # cvMilhieDev
 
-Link to [CV](cv.milhie.fr)
+Link to [CV](http://cv.milhie.fr)
 
