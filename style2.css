@@ -7,20 +7,21 @@
 }
 .myName{
     font-family: 'Spectral SC', serif;
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin: 0.5em;
 }
 
 .jobTitle{
     font-family: 'Spectral SC', serif;
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
 .contact{
     display: flex;
+    font-size: 1.6rem;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
@@ -62,6 +63,7 @@
 .links{
     display: flex;
     flex-direction: row;
+    font-size: 1.6rem;
     justify-content: space-around;
     text-align: center;
     color: white;
@@ -165,6 +167,7 @@ img{
     }
     .contact, .links{
         flex-direction: row;
+        font-size: 1rem;
     }
 
     .links span{
@@ -196,17 +199,12 @@ img{
 
     .jobTitle{
         font-size: 2rem;
+        margin: 0;
     }
+
     .myName {
+        font-size: 1.7rem;
         margin: 0;
-    }
-
-    .jobTitle {
-        margin: 0;
-    }
-
-    .links {
-        padding-bottom: 0;
     }
 
     .group-list{
@@ -240,14 +238,15 @@ img{
         margin-left: 0.5em;
     }
 
-    .contact, .links {
+    .contact, .links{
         flex-direction: row;
+        font-size: 0.8rem;
     }
-
     .links {
         margin: 0;
         border-top: solid black;
         border-bottom: solid black;
+        padding-bottom: 0;
     }
 
     .links span {
