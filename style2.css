@@ -176,3 +176,82 @@ img{
         font-size: 3rem;
     }
 }
+
+@media print {
+    .cvEmilieDelsol {
+        background: rgb(204, 204, 204);
+    }
+
+    .cvEmilieDelsol {
+        background: white;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0.5cm;
+        box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+        border: solid black 1em;
+        font-size: 0.7rem;
+        width: 21cm;
+        height: 29.7cm;
+    }
+
+    .jobTitle{
+        font-size: 2rem;
+    }
+    .myName {
+        margin: 0;
+    }
+
+    .jobTitle {
+        margin: 0;
+    }
+
+    .links {
+        padding-bottom: 0;
+    }
+
+    .group-list{
+        margin-bottom: 0.5em;
+    }
+
+    .categoryTitle, .XPtitle{
+        margin-top: 0.5em;
+    }
+
+    .cvMain {
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .competences {
+        width: 35vw;
+        padding: 1em;
+        margin-right: 0.5em;
+    }
+
+    .competences article, .formations {
+        margin-top: 1.8em;
+        margin-bottom: 1.8em;
+    }
+
+    .XPnForm {
+        width: 65vw;
+        padding: 1em;
+        padding-top: 0;
+        margin-left: 0.5em;
+    }
+
+    .contact, .links {
+        flex-direction: row;
+    }
+
+    .links {
+        margin: 0;
+        border-top: solid black;
+        border-bottom: solid black;
+    }
+
+    .links span {
+        display: inline;
+    }
+
+}
