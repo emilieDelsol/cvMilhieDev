@@ -1,4 +1,4 @@
-.cvEmilieDelsol{
+.cvEmilieDelsol {
     max-width: 1024px;
     margin: auto;
     font-family: 'Raleway', sans-serif;
@@ -6,79 +6,83 @@
     font-size: 1rem;
 }
 
-.myName{
+.myName {
     font-family: 'Spectral SC', serif;
     font-size: 1.3rem;
     font-weight: bold;
     margin: 0.5em;
 }
 
-.jobTitle{
+.jobTitle {
     font-family: 'Spectral SC', serif;
     font-size: 2rem;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
-.contact{
+
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
 }
-.email{
+
+.email {
     color: black;
     text-decoration: none;
 }
-.email:hover{
+
+.email:hover {
     text-decoration: underline;
 }
-.competences article{
+
+.competences article {
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
-.cvMain{
+.cvMain {
     display: flex;
     flex-direction: column;
     margin: 1em;
 }
 
-.cvMain .group-list li{
+.cvMain .group-list li {
     margin-top: 1em;
 }
 
 
 /*general*/
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.group-list{
+.group-list {
     list-style: none;
     padding: 0;
 }
 
-.links{
+.links {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
     color: white;
     background-color: black;
-    padding-top: 0.2em ;
-    padding-bottom: 0.2em ;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
 }
 
-.links a{
+.links a {
     color: white;
 }
 
-.links span{
+.links span {
     display: none;
 }
 
-.competences article, .formations{
+.competences article, .formations {
     border-top: solid 0.2rem;
 }
 
@@ -87,151 +91,171 @@
 }
 
 
-.XPtitle{
+.XPtitle {
     text-transform: capitalize;
     margin-bottom: 0.5em;
 }
 
-.sub-title{
+.sub-title {
     font-weight: bold;
     margin-bottom: 0;
     margin-top: 0.5rem;
 
 }
 
-.categoryTitle{
+.categoryTitle {
     font-family: 'Spectral SC', serif;
     text-transform: uppercase;
     font-size: 1.6em;
     margin-bottom: 0;
 }
-.profile-photo{
+
+.profile-photo {
     text-align: center;
 }
-img{
+
+img {
     max-width: 60%;
     margin-top: 1em;
     margin-bottom: 1em;
     text-align: center;
 }
 
-.emilie{
+.emilie {
     display: none;
 }
 
-.bold{
-    font-weight: bold ;
+.bold {
+    font-weight: bold;
 }
 
-.light-grey{
+.light-grey {
     color: rgb(104, 104, 104);
 }
 
-.details{
+.details {
     margin: 0;
     font-style: italic;
     font-weight: normal;
 }
-.langages, .dates{
+
+.langages, .dates {
     margin: 0;
 }
-@media screen and (min-width: 850px){
-    .cvEmilieDelsol{
-        background: rgb(204,204,204);
+
+@media screen and (max-width: 850px) {
+    .cvEmilieDelsol {
+        background: rgb(204, 204, 204);
     }
+
     .cvEmilieDelsol {
         background: white;
         display: block;
         margin: 0 auto;
         margin-bottom: 0.5cm;
-        box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+        box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
         border: solid black 1em;
-
     }
 
-    .cvMain{
-        display: grid;
-        grid-template-columns: 2fr 3fr;
-    }
-
-
-    .competences{
-        grid-column: 1;
-        padding: 1em;
-        margin-left: 1em;
-        margin-right: 2em;
-    }
-
-    .XPnForm{
-        grid-column: 2;
-        padding: 1em;
-        padding-top: 0;
-        margin-left: 2em;
-        margin-right: 1em;
-
-    }
-    .contact, .links{
+    .cvMain {
         flex-direction: row;
     }
 
-    .links span{
+    .competences {
+        width: 35vw;
+        padding: 1em;
+    }
+
+    .XPnForm {
+        width: 65vw;
+        padding: 1em;
+        padding-top: 0;
+    }
+
+    .contact, .links {
+        flex-direction: row;
+    }
+
+    .links span {
         display: inline;
     }
 
-    .jobTitle{
+    .jobTitle {
         font-size: 3rem;
     }
 }
-@media print{
-    .cvEmilieDelsol{
-        background: rgb(204,204,204);
+
+@media print {
+    .cvEmilieDelsol {
+        background: rgb(204, 204, 204);
     }
+
     .cvEmilieDelsol {
         background: white;
         display: block;
         margin: 0 auto;
         margin-bottom: 0.5cm;
-        box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+        box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
         border: solid black 1em;
         font-size: 0.7rem;
         width: 21cm;
         height: 29.7cm;
     }
 
-    .cvMain{
-        display: grid;
-        grid-template-columns: 2fr 3fr;
+    .myName {
+        margin-bottom: 0;
+    }
+
+    .jobTitle {
+        margin: 0;
+    }
+
+    .links {
+        padding-bottom: 0;
+    }
+
+    .group-list{
+        margin-bottom: 0.5em;
+    }
+
+    .categoryTitle, .XPtitle{
+        margin-top: 0.5em;
+    }
+
+    .cvMain {
+        flex-direction: row;
         margin-top: 0;
     }
 
-    .competences{
-        grid-column: 1;
+    .competences {
+        width: 35vw;
         padding: 1em;
         margin-right: 0.5em;
     }
 
-    .competences article, .formations{
+    .competences article, .formations {
         margin-top: 1.8em;
         margin-bottom: 1.8em;
     }
 
-    .XPnForm{
-        grid-column: 2;
+    .XPnForm {
+        width: 65vw;
         padding: 1em;
         padding-top: 0;
         margin-left: 0.5em;
-
     }
 
-    .contact, .links{
+    .contact, .links {
         flex-direction: row;
     }
-    .links{
+
+    .links {
         margin: 0;
         border-top: solid black;
         border-bottom: solid black;
     }
-    .links span{
+
+    .links span {
         display: inline;
     }
 
